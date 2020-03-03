@@ -1,0 +1,87 @@
+header {
+    padding: 10px;
+    background: red;
+    border-bottom: 2px black solid;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    height: 100vh;
+    margin: 0;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.icons {
+    width: 150px;
+    display: flex;
+}
+
+.links a {
+    color: black;
+    transition: font-size 0.5s;
+}
+
+.links a:hover,.links a:active {
+    text-decoration: none;
+    color: red;
+}
+
+.links a:visited {
+    color: black;
+}
+
+.fab {
+    margin: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: black;
+    color: white;
+}
+
+
+.githubRepos {
+    padding: 10px;
+} 
+
+.githubRepos li{
+    list-style: none;
+}
+
+.githubRepos li a {
+    color: black;
+}
+
+.githubRepos li a:hover,.githubRepos li a:active {
+    text-decoration: none;
+    color: red;
+}
+
+.githubRepos li a:visited {
+    color: black;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.grow {
+    font-size: 1.5em;
+}
